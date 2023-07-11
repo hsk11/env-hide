@@ -1,6 +1,6 @@
 {
   "name": "env-hide",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "Secure your .env file with a password/ Secret SALT and use it in your project. Encrypt / decrypt your .env files. Hide your environment variables.",
   "main": "index.js",
   "bin": {
