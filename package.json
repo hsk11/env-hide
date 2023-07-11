@@ -1,0 +1,46 @@
+{
+  "name": "env-hide",
+  "version": "1.2.3",
+  "description": "Secure your .env file with a password/ Secret SALT and use it in your project. Encrypt / decrypt your .env files. Hide your environment variables.",
+  "main": "index.js",
+  "bin": {
+    "env-hide": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    ".env.enc",
+    "env-hide",
+    "hide .env",
+    "secure .env",
+    "envHide",
+    "encrypt .env",
+    "encrypt",
+    "secure",
+    "environment",
+    "dotenv",
+    "dotenv-encrypt",
+    "cli",
+    "secure env",
+    "secure environment variables",
+    "hide env",
+    "hide environment variables",
+    "cli"
+  ],
+  "author":  
+  {
+    "name" : "Harpal Singh",
+    "url" : "https://www.linkedin.com/in/hsk11/"
+  },
+  "homepage": "https://github.com/hsk11/env-hide",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hsk11/env-hide"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "minimist": "^1.2.8"
+  }
+}
