@@ -21,6 +21,6 @@ jobs:
           scope: '@octocat'
       - run: npm install --package-lock-only
       - run: npm ci
-      - run: npm publish
+      - run: npm publish --registry=https://npm.pkg.github.com/
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
