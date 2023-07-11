@@ -1,6 +1,6 @@
 {
   "name": "env-hide",
-  "version": "1.2.6",
+  "version": "1.2.61",
   "description": "Secure your .env file with a password/ Secret SALT and use it in your project. Encrypt / decrypt your .env files. Hide your environment variables.",
   "main": "index.js",
   "bin": {
@@ -38,7 +38,7 @@
     "type": "git",
     "url": "https://github.com/hsk11/env-hide"
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^16.0.3",
     "minimist": "^1.2.8"
